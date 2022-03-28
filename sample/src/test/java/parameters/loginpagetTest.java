@@ -30,7 +30,7 @@ public class loginpagetTest {
 			
 		}
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		driver.get(url);
 		driver.findElement(By.name("user_name")).sendKeys(username);
